@@ -1,0 +1,161 @@
+# Copyright (C) 2024 kirillbdev
+# This file is distributed under the GPLv3.
+msgid ""
+msgstr ""
+"Project-Id-Version: WC LiqPay Payments (develop) 1.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wc-liqpay-payments-dev\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-07-29T00:59:11+03:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: wc-liqpay-payments\n"
+
+#. Plugin Name of the plugin
+msgid "WC LiqPay Payments (develop)"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://kirillbdev.pro/wc-liqpay-payments/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Plugin that adds supporting of LiqPay payment gateway to your WooCommerce store."
+msgstr ""
+
+#. Author of the plugin
+msgid "kirillbdev"
+msgstr ""
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:35
+msgid "LiqPay payment gateway"
+msgstr ""
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:160
+#: src/Component/QodaxLiqPayPaymentGateway.php:162
+msgid "Enable"
+msgstr ""
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:166
+msgid "Title"
+msgstr ""
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:168
+msgid "Title that appears on the checkout page"
+msgstr ""
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:173
+msgid "Description"
+msgstr ""
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:175
+msgid "Description that appears on the checkout page"
+msgstr ""
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:176
+msgid "Pay using LiqPay payment system"
+msgstr ""
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:180
+msgid "Public key"
+msgstr ""
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:182
+msgid "LiqPay public key. Required parameter."
+msgstr ""
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:186
+msgid "Private key"
+msgstr ""
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:188
+msgid "LiqPay private key. Required parameter."
+msgstr ""
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:192
+msgid "Enable sandbox mode"
+msgstr ""
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:197
+msgid "Sandbox public key"
+msgstr ""
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:199
+#: src/Component/QodaxLiqPayPaymentGateway.php:205
+msgid "Required if sandbox mode enabled."
+msgstr ""
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:203
+msgid "Sandbox private key"
+msgstr ""
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:209
+msgid "Processing mode"
+msgstr ""
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:212
+msgid "Form"
+msgstr ""
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:213
+msgid "Redirect"
+msgstr ""
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:220
+msgid "Language"
+msgstr ""
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:223
+msgid "Ukrainian"
+msgstr ""
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:224
+msgid "English"
+msgstr ""
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:225
+msgid "Detect automatically"
+msgstr ""
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:227
+msgid "Gateway language interface. Automatic detection supports only for WPML and Polylang plugins."
+msgstr ""
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:235
+msgid "Success status"
+msgstr ""
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:243
+msgid "Error status"
+msgstr ""
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:251
+msgid "Result URL"
+msgstr ""
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:254
+msgid "URL where customer will be redirected after a successful transaction. Leave blank to use default url."
+msgstr ""
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:262
+msgid "Icon URL"
+msgstr ""
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:410
+msgid "Payment for order #"
+msgstr ""
+
+#: views/gateway_options.php:10
+msgid "Settings"
+msgstr ""
+
+#: views/gateway_options.php:16
+msgid "Documentation"
+msgstr ""
+
+#: views/receipt_form.php:7
+msgid "Thank you for your order! Click the button below to pay."
+msgstr ""

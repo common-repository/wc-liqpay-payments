@@ -1,0 +1,39 @@
+{
+    "name": "qodax/wc-liqpay-payments",
+    "type": "plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Qodax\\WcLiqPayPayments\\": "src/"
+        },
+        "classmap": [
+            "qodax-sdk/",
+            "modules/"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Kirill Babinets",
+            "email": "info@kirillbdev.pro"
+        }
+    ],
+    "config": {
+        "discard-changes": true
+    },
+    "minimum-stability": "dev",
+    "require-dev": {
+        "qodax/wordpress-sdk": "*",
+        "squizlabs/php_codesniffer": "4.0.x-dev"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "~/development/wordpress/wc-shop/qodax-wp-sdk"
+        }
+    ],
+    "scripts": {
+        "post-autoload-dump": [
+            "@php -r \"copy('vendor/qodax/wordpress-sdk/qodax-cli', 'qodax-cli'); chmod('qodax-cli', 0700);\""
+        ]
+    }
+}

@@ -1,0 +1,175 @@
+# Copyright (C) 2024 kirillbdev
+# This file is distributed under the same license as the WC LiqPay Payments plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WC LiqPay Payments 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wc-liqpay-"
+"payments-dev\n"
+"POT-Creation-Date: 2024-07-28T17:11:45+03:00\n"
+"PO-Revision-Date: 2024-07-28 17:13+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.3\n"
+"X-Domain: wc-liqpay-payments\n"
+
+#. Plugin Name of the plugin
+msgid "WC LiqPay Payments (develop)"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://kirillbdev.pro/wc-liqpay-payments/"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Plugin that adds supporting of LiqPay payment gateway to your WooCommerce "
+"store."
+msgstr ""
+"Плагін, який додає підтримку платіжного шлюзу LiqPay у ваш магазин "
+"WooCommerce."
+
+#. Author of the plugin
+msgid "kirillbdev"
+msgstr ""
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:35
+msgid "LiqPay payment gateway"
+msgstr "Платіжний шлюз LiqPay (by Qodax)"
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:158
+#: src/Component/QodaxLiqPayPaymentGateway.php:160
+msgid "Enable"
+msgstr "Увімкнути"
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:164
+msgid "Title"
+msgstr "Заголовок"
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:166
+msgid "Title that appears on the checkout page"
+msgstr "Заголовок який відображається на сторінці чекаута"
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:171
+msgid "Description"
+msgstr "Опис"
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:173
+msgid "Description that appears on the checkout page"
+msgstr "Опис який відображається на сторінці чекаут"
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:174
+msgid "Pay using LiqPay payment system"
+msgstr "Сплатити за допомогою LiqPay"
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:178
+msgid "Public key"
+msgstr ""
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:180
+msgid "LiqPay public key. Required parameter."
+msgstr "Публічний ключ LiqPay. Обов'язковий параметр."
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:184
+msgid "Private key"
+msgstr ""
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:186
+msgid "LiqPay private key. Required parameter."
+msgstr "Приватний ключ LiqPay. Обов'язковий параметр."
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:190
+msgid "Enable sandbox mode"
+msgstr "Увімкнути режим sandbox"
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:195
+msgid "Sandbox public key"
+msgstr ""
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:197
+#: src/Component/QodaxLiqPayPaymentGateway.php:203
+msgid "Required if sandbox mode enabled."
+msgstr "Обов'язковий параметр, якщо увімкнений режим sandbox."
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:201
+msgid "Sandbox private key"
+msgstr ""
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:207
+msgid "Processing mode"
+msgstr "Режим процессінгу"
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:210
+msgid "Form"
+msgstr "Форма"
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:211
+msgid "Redirect"
+msgstr "Редірект"
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:218
+msgid "Language"
+msgstr "Мова"
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:221
+msgid "Ukrainian"
+msgstr "Українська"
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:222
+msgid "English"
+msgstr "Англійська"
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:223
+msgid "Detect automatically"
+msgstr "Виявляти автоматично"
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:225
+msgid ""
+"Gateway language interface. Automatic detection supports only for WPML and "
+"Polylang plugins."
+msgstr ""
+"Мова інтерфейсу шлюзу. Автоматичне виявлення підтримує лише плагіни WPML та "
+"Polylang."
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:233
+msgid "Success status"
+msgstr "Статус замовлення при успішній оплаті"
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:241
+msgid "Error status"
+msgstr "Статус замовлення при неуспішній оплаті"
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:249
+msgid "Result URL"
+msgstr ""
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:252
+msgid ""
+"URL where customer will be redirected after a successful transaction. Leave "
+"blank to use default url."
+msgstr ""
+"URL-адреса, на яку клієнт буде перенаправлений після успішної транзакції. "
+"Залиште поле порожнім, щоб використовувати URL за замовчуванням."
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:260
+msgid "Icon URL"
+msgstr "URL іконки"
+
+#: src/Component/QodaxLiqPayPaymentGateway.php:399
+msgid "Payment for order #"
+msgstr "Оплата замовлення #"
+
+#: views/gateway_options.php:10
+msgid "Settings"
+msgstr "Налаштування"
+
+#: views/gateway_options.php:16
+msgid "Documentation"
+msgstr "Документація"
+
+#: views/receipt_form.php:7
+msgid "Thank you for your order! Click the button below to pay."
+msgstr "Дякуємо за ваше замовлення! Щоб оплатити, натисніть кнопку нижче."
